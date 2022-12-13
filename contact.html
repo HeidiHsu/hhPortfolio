@@ -29,7 +29,7 @@
 <div class="container">
   <div style="text-align:center">
     <h2>Contact Me</h2>
-    <p style="font-size: large">Swing by for a cup of coffee, or leave me a message:</p>
+    <p style="font-size: large">Swing by for a cup of coffee, or leave me a message.</p>
   </div>
 
   <div class="row">
@@ -45,17 +45,18 @@
         <label for="email">Email:</label>
         <input type="email" id="email" name="email" placeholder="Enter your email">
 
-        <label for="topic">Message Type:</label>
+        <label for="topic">Subject:</label>
         <select id="topic" name="topic">
           <option value="job">Job oppertunity</option>
           <option value="design">Design idea</option>
           <option value="fun">Fun stuff</option>
           <option value="hello">Suggestions</option>
-          <option value="other">Others</option>
+          <option value="other">Random thoughts</option>
+          <option value="" disabled selected hidden>What is it about?</option>
         </select>
 
-        <label for="message">Message</label>
-        <textarea id="message" name="message" placeholder="Write something.." style="height:170px"></textarea>
+        <label for="message">Message:</label>
+        <textarea id="message" name="message" placeholder="Tell me more about it..." style="height:170px"></textarea>
       
         <input type="submit" value="Submit">
 

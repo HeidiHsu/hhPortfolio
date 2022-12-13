@@ -14,6 +14,7 @@ html {
 
 h1 {
     font-size: 2rem;
+    padding-top: 1rem;
 }
 
 h2 {
@@ -163,13 +164,18 @@ footer {
     display: block;
     flex:70%;
     padding: 20px;
-    background-color: antiquewhite;
 }
 
 .card {
     box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2);
     margin: 8px;
+    height: auto;
   }
+
+.res_card {
+    margin: 20px 0 20px 0;
+    padding: 0 0 3rem 0;
+}
 
 .pro_card {
     display: flex;
